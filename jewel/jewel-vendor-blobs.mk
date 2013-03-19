@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/htc/jewel/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/htc/jewel/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+	vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/jewel/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/htc/jewel/proprietary/lib/libimu.so:system/lib/libimu.so \
 	vendor/htc/jewel/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
@@ -40,7 +41,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libMLTransition.so:system/lib/libMLTransition.so \
 	vendor/htc/jewel/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 	vendor/htc/jewel/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-	vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/jewel/proprietary/etc/agps_rm:system/etc/agps_rm \
 	vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
 	vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
