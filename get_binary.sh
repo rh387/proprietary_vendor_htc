@@ -3,12 +3,12 @@ mkdir ./temp
 cd ./temp
 
 # Obtain then extract .zip of binary from one of 2 host
-if wget http://zalil.ru/34358719/4a7f454d.5147ece8/binary.zip
+if wget http://puu.sh/2jRmf -O binary.zip
 then
 		unzip binary.zip -d ./lib
 else
-		wget http://tonicooperi.site40.net/u/99140binary.zip
-		unzip 99140binary.zip -d ./lib
+		wget http://tonicooperi.site40.net/u/99140binary.zip -O binary.zip
+		unzip binary.zip -d ./lib
 fi
 
 # move binary to correct location
